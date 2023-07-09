@@ -1,0 +1,26 @@
+header{
+    height: 200px;
+    background-color: aquamarine;
+
+}
+h3{
+    color: blueviolet;
+    /* text-align: right; */
+    background-color: aquamarine;
+    text-decoration: underline;
+
+}
+.blog{
+    color: blue;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 10px black;
+    border: 5px solid tomato;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    border-style: hidden;
+    border-radius: 10%;
+}
+.extt{
+    color: brown;
+}

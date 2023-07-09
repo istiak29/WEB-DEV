@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selector</title>
+
+    <style>
+        .lightcol{
+            background-color: cornflowerblue;
+        }
+
+        #id{
+            font-weight: 700;
+            font-size: larger;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .bold{
+            font-weight: 900;
+        }
+
+        .italic{
+            font-style: italic;
+        }
+
+        .yello{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h2>Mixed Selector:</h2>
+    <p class="lightcol">This is my First Line CSS</p>
+    <p id="id">This line has one id</p>
+    <p class="bold">This line should be bold</p>
+    <p class="cls">This class has one class</p>
+    <p id="one">Every element has only one id</p>
+    <p class="lightcol bold italic">Every element can hold multiple class name</p>
+    <P class="yello">multiple classes must be separated by space</P>
+</body>
+</html>
