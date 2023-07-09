@@ -1,0 +1,8 @@
+nav > ul > li{
+    display: inline;
+    text-decoration: none;
+    margin: 15px;
+}
+footer{
+    text-align: center;
+}
