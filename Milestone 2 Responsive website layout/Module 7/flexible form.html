@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexible Form Layout</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a{
+            text-decoration: none;
+            color: purple;
+        }
+        .login-form-container{
+            /* border: 2px solid purple; */
+            display: flex;
+            justify-content: center;
+            height: 90vh;
+            align-items: center;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            /* border: 1px solid peru; */
+        }
+        .login-form input{
+            margin-top: 20px ;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <nav>
+        <div>
+            <a href="">Home</a>
+            <a href="">Profiles</a>
+            <a href="">Blogs</a>
+            <a href="">About</a>
+        </div>
+        <a href="">Login</a>
+    </nav>
+    <section class="login-form-container">
+        <form action="" class="login-form">
+        <h3>Please Log in</h3>
+        <input type="email" name="" id="" placeholder="Your Email" required>
+        <input type="password" name="" id="" placeholder="Your password" required>
+        <input type="submit" value="login">
+    </form>
+    </section>
 </body>
 </html>
